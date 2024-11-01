@@ -1,0 +1,33 @@
+	.v4_table {
+	  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	  border-collapse: collapse;
+	  width: 100%;
+	}
+
+	.v4_table td, .v4_table th {
+	  border: 1px solid #ddd;
+	  padding: 8px;
+	}
+
+	.v4_table tr:nth-child(even){
+		background-color: #f2f2f2;
+	}
+
+	.v4_table tr:hover {
+		background-color: #ddd;
+	}
+
+	.v4_table th {
+	  padding-top: 12px;
+	  padding-bottom: 12px;
+	  text-align: left;
+	  background-color: #333;
+	  color: white;
+	}
+
+	.v4_link {
+		cursor:pointer;
+	}
+	.vlab_clickable{
+		cursor:pointer;
+	}
